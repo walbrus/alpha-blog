@@ -2,6 +2,7 @@
 <title>Jon's About Page</title>
 <head>
 <style>
+#wrapper {width:43%; margin: 0 auto}
 #section1 {width:400px;float:left;padding-left:100px;}
 #section2 {width:400px;float:left;padding-left:100px;}
 #footer {width:1100px;text-align:center;padding-top:200px}
@@ -13,6 +14,7 @@
 <body>
 <p style="text-align:center"><img src="http://www.fusionhit.com/wp-content/uploads/2014/10/rails.jpg" alt="Ruby on Rails" style="width:1000px;height:288px"></p>
 
+<div id="wrapper">
 <div id="section1">
   <p>This is the about page</p>
 </div>
@@ -22,5 +24,6 @@
 <div id="footer">
   <%= link_to 'Home', root_path %>
 <p>Made by Jon!</p>
+  </div>  
 </body>
 </html>
